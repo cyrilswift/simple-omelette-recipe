@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    margin-top: 100px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.attribution {
+    /* padding: 10px; */
+    margin-top: 20px;
+}
+
+.container {
+    background-color: white;
+    /* border: 3px solid blue; */
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main {
+    /* border: 3px solid red; */
+}
+
+
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+h1,h2 {
+    font-family: 'Young Serif', serif;
+    text-align: left;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif; 
+    color: hsl(332, 51%, 32%);
+}
+
+p {
+    font-family: 'Outfit', sans-serif; 
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+.section-1 {
+    padding: 5px 0px 5px 30px;
+    margin-top: 30px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    width: 200[x];
+    /* border: 2px solid black; */
+}
+
+.section-2 {
+    padding-bottom: 20px;
+}
+
+.section-3 {
+    border-top: 0.5px solid #9b9b9b;
+    border-bottom: 0.5px solid #9b9b9b;
+    padding: 20px 0px;
+    /* border: 1px solid red; */
+}
+
+.section-4 {
+    margin-top: 40px;
+}
+
+
+.bold-text {
+    font-weight: bold;
+}
+
+ul, ol {
+    padding: 0px 0px 0px 30px;
+    list-style-position: outside;
+    font-weight: 550;
+ 
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Outfit', sans-serif; 
+    margin-bottom: 15px;
+    padding-left: 10px;
+    color:  hsl(30, 10%, 34%);
+}
+
+table {
+    min-width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 0.5px solid #9b9b9b;;
+    
+}
+
+table tr td {
+    font-family: 'Outfit', sans-serif; 
+    color: hsl(30, 10%, 34%);
+    margin: 0;
+    padding: 15px 0px 15px 30px;
+}
+
+table tr .measure {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600; 
+}
